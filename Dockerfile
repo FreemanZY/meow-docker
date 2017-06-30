@@ -10,5 +10,6 @@ RUN mkdir /meow && \
     curl -L git.io/meowproxy | sh
 
 WORKDIR /meow
+VOLUME /root/.meow
 ENTRYPOINT /meow/MEOW
 # should mount your config at /root/.meow/rc
