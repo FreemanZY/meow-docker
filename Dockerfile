@@ -12,4 +12,3 @@ RUN mkdir /meow && \
 WORKDIR /meow
 VOLUME /root/.meow
 ENTRYPOINT /meow/MEOW
-# should mount your config at /root/.meow/rc
